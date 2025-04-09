@@ -1,0 +1,16 @@
+{
+  "name": "mcp-weather-server",
+  "version": "1.0.0",
+  "description": "MCP Weather Server using National Weather Service API",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.24",
+    "axios": "^1.6.7",
+    "typescript": "^5.3.3"
+  }
+}
